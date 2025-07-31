@@ -23,7 +23,7 @@ export async function POST(request: NextRequest) {
 
     const message = `InstaRate Payment Link
 
-${productName} - ${price}
+${productName} - (Annual fee)
 
 Complete your payment: ${paymentLink}
 
