@@ -47,7 +47,7 @@ export async function POST(request: NextRequest) {
                        style="background-color: #f97316; color: white; padding: 12px 24px; 
                               text-decoration: none; border-radius: 6px; font-weight: bold;
                               display: inline-block;">
-                      Complete Payment
+                      Pay now
                     </a>
                   </div>
                   <p style="color: #6b7280; font-size: 14px;">
