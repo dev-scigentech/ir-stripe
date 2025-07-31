@@ -38,9 +38,9 @@ export async function POST(request: NextRequest) {
                   </h1>
                 </div>
                 <div style="padding: 30px; background-color: #f9fafb;">
-                  <h2 style="color: #1f2937; margin-bottom: 20px;">Payment Link Ready</h2>
+                  <h2 style="color: #1f2937; margin-bottom: 20px;">Payment Link</h2>
                   <p style="color: #4b5563; font-size: 16px; line-height: 1.5;">
-                    You've received a payment link for <strong>${productName}</strong> (${price}).
+                    You've received a payment link for <strong>${productName}</strong> (Annual fee).
                   </p>
                   <div style="text-align: center; margin: 30px 0;">
                     <a href="${paymentLink}" 
@@ -67,7 +67,7 @@ export async function POST(request: NextRequest) {
             Data: `
 Payment Link for ${productName}
 
-You've received a payment link for ${productName} (${price}).
+You've received a payment link for ${productName} (Annual fee).
 
 Complete your payment here: ${paymentLink}
 
